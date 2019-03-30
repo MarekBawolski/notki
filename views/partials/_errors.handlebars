@@ -1,0 +1,9 @@
+{{#if error}}
+  <div class="card card-body mb-2 bg-info">{{error}}</div>
+{{/if}}
+
+{{#each errors}}
+  <div class="card card-body mb-2 bg-info">{{text}}</div>
+{{else}}
+
+{{/each}}
